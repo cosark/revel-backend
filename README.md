@@ -45,6 +45,10 @@ git clone https://github.com/letsrevel/infra && cd infra && ./setup.sh
 
 You need a Linux x86-64 server, run as root or as a user in the `docker` group, with ports 80 and 443 open and DNS A records for two hostnames: one for the web app and one for the API, which defaults to `api.<your domain>`. Add a third for Grafana if you enable observability. The wizard offers to install Docker if it is missing, asks for your domains, email settings and which optional services to run, writes `.env` with generated secrets, pulls the prebuilt images and starts the stack. The slim tier needs 2 vCPU and 4 GB RAM, about €20/month (Hetzner CPX22, September 2026). The full tier, with observability and malware scanning, needs 8 vCPU and 32 GB RAM. Full guide: [docs.letsrevel.io/self-hosting](https://docs.letsrevel.io/self-hosting/).
 
+### One-click deploy
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/Revel/)
+
 ## Fees and data
 
 | | What the organizer pays |
